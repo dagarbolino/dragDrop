@@ -1,7 +1,3 @@
-
-
-
-
 import { useState } from 'react';
 
 
@@ -33,8 +29,8 @@ const MovingElement = () => {
   };
 
   return (
-    <div className='containerBleu'>
-   
+    <div className='containerBleuSection2'>
+
       <div className='box1'
         style={{
           position: 'absolute',
@@ -46,8 +42,11 @@ const MovingElement = () => {
         onMouseUp={handleMouseUp}
         onMouseMove={handleMouseMove}
       >
+        
         <input className='input2' type="text" />
         <label htmlFor="input2">box1</label>
+
+
       </div>
     </div>
   );
